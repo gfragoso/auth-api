@@ -1,0 +1,34 @@
+{
+	"production": {
+		"host": "(localdb)",
+		"database": "Auth",
+		"dialect": "mssql",
+		"dialectModulePath": "sequelize-msnodesqlv8",
+		"dialectOptions": {
+			"driver": "SQL Server Native Client 11.0",
+			"instanceName": "v11.0",
+			"trustedConnection": true
+		},
+		"pool": {
+			"max": 5,
+			"min": 0,
+			"idle": 10000
+		}
+	},
+	"development": {
+		"host": "(localdb)",
+		"database": "Auth",
+		"dialect": "mssql",
+		"dialectModulePath": "sequelize-msnodesqlv8",
+		"dialectOptions": {
+			"driver": "SQL Server Native Client 11.0",
+			"instanceName": "v11.0",
+			"trustedConnection": true
+		},
+		"pool": {
+			"max": 5,
+			"min": 0,
+			"idle": 10000
+		}
+	}
+}
