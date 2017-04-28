@@ -6,7 +6,7 @@ const database = require('../database/database.json');
 const config = {
 	default: {
 		secretKey: "gustavo-dias-fragoso",
-		blobUrl: "https://blobpoint.blob.core.windows.net/linx-dev/"
+		blobUrl: "https://blobpoint.blob.core.windows.net/"
 	},
 	production: {
 		database: database.production
